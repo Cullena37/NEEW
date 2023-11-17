@@ -1,0 +1,42 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+// Funzione per stampare un vettore
+void stampaVettore(const vector<int>& vettore) {
+    for (int elemento : vettore) {
+        cout << elemento << " ";
+    }
+    cout << endl;
+}
+
+// Implementazione dell'algoritmo di Bubble Sort
+void bubbleSort(vector<int>& vettore) {
+    int n = vettore.size();
+
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            // Scambia gli elementi se sono nell'ordine sbagliato
+            if (vettore[j] > vettore[j + 1]) {
+                swap(vettore[j], vettore[j + 1]);
+            }
+        }
+    }
+}
+
+int main() {
+    // Creazione di un vettore di numeri interi non ordinato
+    vector<int> mioVettore = {64, 25, 12, 22, 11};
+
+    cout << "Vettore prima dell'ordinamento: ";
+    stampaVettore(mioVettore);
+
+    // Applicazione dell'algoritmo di Bubble Sort
+    bubbleSort(mioVettore);
+
+    cout << "Vettore dopo l'ordinamento: ";
+    stampaVettore(mioVettore);
+
+    return 0;
+}
