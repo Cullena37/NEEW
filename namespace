@@ -21,21 +21,7 @@ void bubbleSort(vector<int>& vettore) {
             if (vettore[j] > vettore[j + 1]) {
                 swap(vettore[j], vettore[j + 1]);
             }
-        }
-    }
-}
-
-int main() {
-    // Creazione di un vettore di numeri interi non ordinato
-    vector<int> mioVettore = {64, 25, 12, 22, 11};
-
-    cout << "Vettore prima dell'ordinamento: ";
-    stampaVettore(mioVettore);
-
-    // Applicazione dell'algoritmo di Bubble Sort
-    bubbleSort(mioVettore);
-
-    cout << "Vettore dopo l'ordinamento: ";
+Vettore dopo l'ordinamento: ";
     stampaVettore(mioVettore);
 
     return 0;
