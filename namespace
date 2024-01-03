@@ -22,7 +22,5 @@ void bubbleSort(vector<int>& vettore) {
                 swap(vettore[j], vettore[j + 1]);
             }
 Vettore dopo l'ordinamento: ";
-    stampaVettore(mioVettore);
-
-    return 0;
-}
+    stampaVettore(mioV}
+}}}}
