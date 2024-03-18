@@ -24,3 +24,67 @@ void bubbleSort(vector<int>& vettore) {
 Vettore dopo l'ordinamento: ";
     stampaVettore(mioV}
 }}}}
+    cout << endl;
+}
+
+// Implementazione dell'algoritmo di Bubble Sort
+void bubbleSort(vector<int>& vettore) {
+    int n = vettore.size();
+
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            // Scambia gli elementi se sono nell'ordine sbagliato
+            if (vettore[j] > vettore[j + 1]) {
+                swap(vettore[j], vettore[j + 1]);
+            }
+Vettore dopo l'ordinamento: ";
+    stampaVettore(mioV}
+}}}}
+    cout << endl;
+}
+
+// Implementazione dell'algoritmo di Bubble Sort
+void bubbleSort(vector<int>& vettore) {
+    int n = vettore.size();
+
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            // Scambia gli elementi se sono nell'ordine sbagliato
+            if (vettore[j] > vettore[j + 1]) {
+                swap(vettore[j], vettore[j + 1]);
+            }
+Vettore dopo l'ordinamento: ";
+    stampaVettore(mioV}
+}}}}
+    cout << endl;
+}
+
+// Implementazione dell'algoritmo di Bubble Sort
+void bubbleSort(vector<int>& vettore) {
+    int n = vettore.size();
+
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            // Scambia gli elementi se sono nell'ordine sbagliato
+            if (vettore[j] > vettore[j + 1]) {
+                swap(vettore[j], vettore[j + 1]);
+            }
+Vettore dopo l'ordinamento: ";
+    stampaVettore(mioV}
+}}}}
+    cout << endl;
+}
+
+// Implementazione dell'algoritmo di Bubble Sort
+void bubbleSort(vector<int>& vettore) {
+    int n = vettore.size();
+
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            // Scambia gli elementi se sono nell'ordine sbagliato
+            if (vettore[j] > vettore[j + 1]) {
+                swap(vettore[j], vettore[j + 1]);
+            }
+Vettore dopo l'ordinamento: ";
+    stampaVettore(mioV}
+}}}}
