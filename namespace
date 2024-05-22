@@ -5,12 +5,6 @@ using namespace std;
 
     cout << endl;clude <iostream>
 #include <vector>
-
-using namespace std;
-
-// Funzione per stampare un vettore
-void stampaVettore(const vector<int>& vettore) {
-    for (int elemento : vettore) {
 using namespace std;
 
 // Funzione per stampare un vettore
